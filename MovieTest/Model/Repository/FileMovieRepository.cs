@@ -15,30 +15,6 @@ namespace MovieTest.Model.Repository {
             _filePath = filePath;
         }
 
-        /*
-        public List<Movie> GetAllMovies() {
-            var movies = new List<Movie>();
-            if (!File.Exists(_filePath)) return movies;
-
-            var lines = File.ReadAllLines(_filePath);
-            foreach (var line in lines.Skip(1)) {
-                if (string.IsNullOrWhiteSpace(line)) continue;
-
-                var columns = line.Split(';');
-                if (columns.Length < 3) continue;
-
-                if (!TimeSpan.TryParse(columns[1], out var duration)) continue;
-
-                movies.Add(new Movie {
-                    Title = columns[0],
-                    Duration = duration,
-                    Genre = columns[2]
-                });
-            }
-            return movies;
-        }
-        */
-
         //Henter alle film fra CSV-filen
         public List<Movie> GetAllMovies() {
             var movies = new List<Movie>();

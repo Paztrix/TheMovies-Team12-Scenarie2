@@ -184,24 +184,3 @@
         </Grid>
     </Grid>
 </Window>
-
-
-<!-- TODO bind 1: ItemsSource={Binding Movies} //// Fjernet SelectionChanged="DataGrid_SelectionChanged" -->
-<!--<DataGrid ItemsSource="{Binding CurrentData}" Grid.Row="2" IsReadOnly="True">-->
-    <!--<DataGrid.Columns>-->
-        <!-- TODO bind 1: Binding={Binding Title} -->
-        <!--<DataGridTextColumn Header="Titel" Binding="{Binding Title}" Width="*"/>-->
-
-        <!-- TODO bind 1: Binding={Binding Genre} -->
-        <!--<DataGridTextColumn Header="Genre" Binding="{Binding Genre}" Width="220"/>-->
-
-        <!-- TODO bind 1: Binding={Binding Duration} -->
-        <!--<DataGridTextColumn Header="Varighed" Binding="{Binding Duration}" Width="140"/>-->
-
-        <!-- TODO bind 1: Binding={Binding Instructor} -->
-        <!--<DataGridTextColumn Header="Instruktør" Binding="{Binding Instructor}" Width="140"/>-->
-
-        <!-- TODO bind 1: Binding={Binding MoviePremiere} -->
-        <!--<DataGridTextColumn Header="Premiere" Binding="{Binding MoviePremiere}" Width="140"/>
-    </DataGrid.Columns>
-</DataGrid>-->
